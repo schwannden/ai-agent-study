@@ -1,0 +1,50 @@
+# AI Agent Study
+
+> Comprehensive tutorials for building production-ready AI agents with Claude. Learn ReAct, Plan-Execute-Verify, and Human-in-the-Loop patterns through practical examples. Bilingual documentation in English and Traditional Chinese.
+
+This site provides hands-on tutorials for building autonomous AI agents that can reason, plan, and execute complex tasks. Each pattern includes complete, runnable code examples in Python with implementations using Claude SDK, model-agnostic approaches, and LangChain integration. All tutorials use a real-world legal document review system as a case study.
+
+**Key Learning Paths:**
+- **ReAct Pattern**: Simple single-loop reasoning agent (~400 lines, 2-3 hours, beginner-friendly)
+- **Plan-Execute-Verify**: Production-grade multi-phase architecture (~1300+ lines, 6-8 hours, advanced)
+- **Human-in-the-Loop**: Interactive agent patterns with user input workflows
+
+**Technologies:** Python 3.10+, Claude API, Anthropic SDK, LangChain, async programming
+
+## Core Tutorials
+
+- [Getting Started](https://schwanndenkuo.github.io/ai-agent-study/): Landing page with learning paths and prerequisites
+- [Case Study: Legal Document Review](https://schwanndenkuo.github.io/ai-agent-study/case-study/): Real-world example comparing agent patterns for automated legal document analysis
+
+## ReAct Pattern (Beginner)
+
+- [Overview](https://schwanndenkuo.github.io/ai-agent-study/react/01-overview/): Architecture diagrams and pattern explanation with Mermaid flowcharts
+- [Claude Implementation](https://schwanndenkuo.github.io/ai-agent-study/react/02-claude-implementation/): Complete implementation using Anthropic SDK with tool calling
+- [Multi-Provider Implementation](https://schwanndenkuo.github.io/ai-agent-study/react/03-multi-provider/): Build agents that work across Claude, GPT, Gemini using LangChain (recommended) or manual abstraction patterns, with latest LangChain 1.2.8 and LangGraph integration
+
+## Plan-Execute-Verify Pattern (Production)
+
+- [Overview](https://schwanndenkuo.github.io/ai-agent-study/plan-execute-verify/01-overview/): Multi-phase architecture with state machines and verification
+- [Claude Implementation](https://schwanndenkuo.github.io/ai-agent-study/plan-execute-verify/02-claude-implementation/): Production-ready implementation with error recovery
+- [Multi-Provider Implementation](https://schwanndenkuo.github.io/ai-agent-study/plan-execute-verify/03-multi-provider/): Build PEV agents that work across Claude, GPT, Gemini using LangChain/LangGraph (recommended) or manual abstraction patterns, with latest 2026 frameworks
+
+## Human-in-the-Loop Pattern
+
+- [Introduction](https://schwanndenkuo.github.io/ai-agent-study/human-in-the-loop/00-index/): Overview of interactive agent workflows
+- [Pattern Overview](https://schwanndenkuo.github.io/ai-agent-study/human-in-the-loop/01-overview/): Architecture and user interaction design
+- [Claude Implementation](https://schwanndenkuo.github.io/ai-agent-study/human-in-the-loop/02-claude-implementation/): Interactive agents with approval workflows
+- [OpenAI Implementation](https://schwanndenkuo.github.io/ai-agent-study/human-in-the-loop/03-openai-implementation/): Human-in-the-loop using OpenAI SDK
+- [Model-Agnostic Version](https://schwanndenkuo.github.io/ai-agent-study/human-in-the-loop/04-model-agnostic/): Universal implementation pattern
+
+## Traditional Chinese (繁體中文)
+
+- [案例研究：法律文件審查系統](https://schwanndenkuo.github.io/ai-agent-study/zh-tw/case-study/): Case study in Traditional Chinese
+- [Human-in-the-Loop 介紹](https://schwanndenkuo.github.io/ai-agent-study/zh-tw/human-in-the-loop/00-index/): Human-in-the-loop tutorials in Traditional Chinese
+- [模式概述](https://schwanndenkuo.github.io/ai-agent-study/zh-tw/human-in-the-loop/01-overview/): Pattern overview in Traditional Chinese
+- [Claude 實作](https://schwanndenkuo.github.io/ai-agent-study/zh-tw/human-in-the-loop/02-claude-implementation/): Claude implementation in Traditional Chinese
+
+## Optional
+
+- [GitHub Repository](https://github.com/schwanndenkuo/ai-agent-study): Source code and issue tracking
+- [Anthropic API Documentation](https://docs.anthropic.com/): Official Claude API documentation
+- [Claude Tool Use Guide](https://docs.anthropic.com/en/docs/build-with-claude/tool-use): Tool calling and function execution reference

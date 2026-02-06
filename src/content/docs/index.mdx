@@ -1,40 +1,98 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: AI Agent Tutorials
+description: Learn how to build production-ready AI agents with Claude using ReAct and Plan-Execute-Verify patterns
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Master the art of building autonomous AI agents that reason, plan, and execute complex tasks with Claude
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start with Case Study
+      link: /ai-agent-study/case-study/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+      variant: primary
+    - text: View on GitHub
+      link: https://github.com/schwanndenkuo/ai-agent-study
       icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Choose Your Learning Path
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="ReAct Pattern (Simple)" icon="rocket">
+    **Perfect for beginners** — Start here if you're new to AI agents
+
+    - ~400 lines of Python code
+    - Single-loop reasoning
+    - Learn: Tool calling, prompting, basic agent loops
+    - **Time:** 2-3 hours
+
+    [Start Building →](/ai-agent-study/react/01-overview/)
+
+  </Card>
+
+  <Card title="Plan-Execute-Verify (Production)" icon="seti:config">
+    **Production-ready architecture** — Advanced pattern for complex tasks
+
+    - ~1300+ lines of Python code
+    - Multi-phase planning & execution
+    - Learn: State machines, verification, error recovery
+    - **Time:** 6-8 hours
+
+    [Deep Dive →](/ai-agent-study/plan-execute-verify/01-overview/)
+
+  </Card>
 </CardGrid>
+
+## What You'll Learn
+
+<CardGrid>
+  <Card title="Agent Fundamentals" icon="puzzle">
+    - Tool calling and function execution
+    - Prompt engineering for reasoning
+    - Handling agent loops and termination
+  </Card>
+
+<Card title="Production Patterns" icon="star">
+  - State management and context preservation - Error handling and recovery strategies -
+  Verification and quality control
+</Card>
+
+<Card title="Real-World Application" icon="document">
+  - Legal document review system - Compliance checking workflows - Scalable agent architectures
+</Card>
+
+  <Card title="Best Practices" icon="approve-check">
+    - Testing AI agents effectively
+    - Performance optimization
+    - Observability and debugging
+  </Card>
+</CardGrid>
+
+## Prerequisites
+
+Before diving in, you should be comfortable with:
+
+- **Python 3.10+** — All code examples use modern Python
+- **API basics** — Understanding REST APIs and async programming
+- **Claude API** — Get your API key from [console.anthropic.com](https://console.anthropic.com/)
+
+No AI/ML background required! These tutorials teach agent patterns from first principles.
+
+## Learning Path
+
+1. **[Case Study Overview](/ai-agent-study/case-study/)** — Understand the problem space and compare patterns (15 min)
+2. **[ReAct Pattern](/ai-agent-study/react/01-overview/)** — Learn the simple pattern (start here!)
+   - Overview with diagrams → Claude SDK → Model Agnostic → LangChain
+3. **[Plan-Execute-Verify](/ai-agent-study/plan-execute-verify/01-overview/)** — Scale to production
+   - Overview with diagrams → Claude SDK → Model Agnostic → LangChain
+
+Each section has complete, runnable code examples.
+
+---
+
+<p style="text-align: center; margin-top: 2rem;">
+  <strong>Ready to build your first AI agent?</strong>
+  <br />
+  <a href="/ai-agent-study/react/01-overview/">Start with ReAct Pattern →</a>
+</p>

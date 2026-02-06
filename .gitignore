@@ -19,3 +19,20 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# IDE files
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# OS files
+Thumbs.db
+
+# Claude Code local configuration
+.claude/
+
+# Backup files
+*.backup

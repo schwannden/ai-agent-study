@@ -1,0 +1,25 @@
+# Build outputs
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Cache files
+.cache/
+*.tsbuildinfo
+
+# IDE
+.vscode/
+.idea/
+
+# Git
+.git/
+
+# Don't format auto-generated files
+public/llms.txt
+
+# Large data files
+*.min.js
+*.min.css

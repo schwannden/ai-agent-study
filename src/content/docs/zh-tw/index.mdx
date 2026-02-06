@@ -1,0 +1,97 @@
+---
+title: AI 代理教學
+description: 學習如何使用 Claude 建構生產級的 AI 代理，掌握 ReAct 和計劃-執行-驗證模式
+template: splash
+hero:
+  tagline: 掌握建構自主 AI 代理的藝術，讓它們能夠推理、計劃並執行複雜任務
+  actions:
+    - text: 從案例研究開始
+      link: /ai-agent-study/zh-tw/case-study/
+      icon: right-arrow
+      variant: primary
+    - text: 在 GitHub 查看
+      link: https://github.com/schwanndenkuo/ai-agent-study
+      icon: external
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 選擇您的學習路徑
+
+<CardGrid stagger>
+  <Card title="ReAct 模式（簡單）" icon="rocket">
+    **適合初學者** — 如果您是 AI 代理的新手，從這裡開始
+
+    - 約 400 行 Python 程式碼
+    - 單迴圈推理
+    - 學習：工具呼叫、提示工程、基礎代理迴圈
+    - **時間：** 2-3 小時
+
+    [開始建構 →](/ai-agent-study/zh-tw/react/01-overview/)
+
+  </Card>
+
+  <Card title="計劃-執行-驗證（生產級）" icon="seti:config">
+    **生產就緒架構** — 適用於複雜任務的進階模式
+
+    - 超過 1300 行 Python 程式碼
+    - 多階段規劃與執行
+    - 學習：狀態機、驗證、錯誤復原
+    - **時間：** 6-8 小時
+
+    [深入探索 →](/ai-agent-study/zh-tw/plan-execute-verify/01-overview/)
+
+  </Card>
+</CardGrid>
+
+## 您將學到什麼
+
+<CardGrid>
+  <Card title="代理基礎" icon="puzzle">
+    - 工具呼叫與函式執行
+    - 推理的提示工程
+    - 處理代理迴圈與終止
+  </Card>
+
+<Card title="生產模式" icon="star">
+  - 狀態管理與上下文保存 - 錯誤處理與復原策略 - 驗證與品質控制
+</Card>
+
+<Card title="實際應用" icon="document">
+  - 法律文件審查系統 - 合規檢查工作流程 - 可擴展的代理架構
+</Card>
+
+  <Card title="最佳實踐" icon="approve-check">
+    - 有效測試 AI 代理
+    - 效能優化
+    - 可觀測性與除錯
+  </Card>
+</CardGrid>
+
+## 先決條件
+
+開始之前，您應該熟悉：
+
+- **Python 3.10+** — 所有程式碼範例使用現代 Python
+- **API 基礎** — 理解 REST API 和非同步程式設計
+- **Claude API** — 從 [console.anthropic.com](https://console.anthropic.com/) 取得您的 API 金鑰
+
+不需要 AI/ML 背景！這些教學從第一原理開始教授代理模式。
+
+## 學習路徑
+
+1. **[案例研究概覽](/ai-agent-study/zh-tw/case-study/)** — 理解問題領域並比較模式（15 分鐘）
+2. **[ReAct 模式](/ai-agent-study/zh-tw/react/01-overview/)** — 學習簡單模式（從這裡開始！）
+   - 含圖表的概覽 → Claude SDK → 模型無關 → LangChain
+3. **[計劃-執行-驗證](/ai-agent-study/zh-tw/plan-execute-verify/01-overview/)** — 擴展至生產級
+   - 含圖表的概覽 → Claude SDK → 模型無關 → LangChain
+
+每個章節都有完整、可執行的程式碼範例。
+
+---
+
+<p style="text-align: center; margin-top: 2rem;">
+  <strong>準備好建構您的第一個 AI 代理了嗎？</strong>
+  <br />
+  <a href="/ai-agent-study/zh-tw/react/01-overview/">從 ReAct 模式開始 →</a>
+</p>
