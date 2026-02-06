@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://schwanndenkuo.github.io',
+	site: 'https://schwannden.github.io',
 	base: '/ai-agent-study',
 	integrations: [
 		starlight({
@@ -224,7 +224,7 @@ export default defineConfig({
 				{
 					icon: 'github',
 					label: 'GitHub',
-					href: 'https://github.com/schwanndenkuo/ai-agent-study',
+					href: 'https://github.com/schwannden/ai-agent-study',
 				},
 			],
 			sidebar: [

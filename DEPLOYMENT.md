@@ -11,7 +11,7 @@ This repository has been successfully converted to an Astro Starlight documentat
 - **Framework**: Astro 5.6.1 with Starlight 0.37.6
 - **Deployment**: GitHub Pages via GitHub Actions
 - **Base Path**: `/ai-agent-study`
-- **Site URL**: `https://schwanndenkuo.github.io/ai-agent-study/`
+- **Site URL**: `https://schwannden.github.io/ai-agent-study/`
 
 ### ✅ Content Organization
 
@@ -81,20 +81,20 @@ git push origin main
 
 ### 2. Configure GitHub Pages
 
-1. Go to `https://github.com/schwanndenkuo/ai-agent-study/settings/pages`
+1. Go to `https://github.com/schwannden/ai-agent-study/settings/pages`
 2. Set **Source** to "GitHub Actions" (NOT branch-based)
 3. Save
 
 ### 3. Monitor Deployment
 
-- Check Actions tab: `https://github.com/schwanndenkuo/ai-agent-study/actions`
+- Check Actions tab: `https://github.com/schwannden/ai-agent-study/actions`
 - First build takes ~2-3 minutes
 - Subsequent builds take ~30-45 seconds
 
 ### 4. Access Live Site
 
 Once deployed, visit:
-`https://schwanndenkuo.github.io/ai-agent-study/`
+`https://schwannden.github.io/ai-agent-study/`
 
 ## Important Notes
 

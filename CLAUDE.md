@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an **Astro Starlight documentation site** for AI Agent tutorials, deployed to GitHub Pages at `https://schwanndenkuo.github.io/ai-agent-study/`. The site teaches developers how to build production-ready AI agents using patterns like ReAct, Plan-Execute-Verify, and Human-in-the-Loop.
+This is an **Astro Starlight documentation site** for AI Agent tutorials, deployed to GitHub Pages at `https://schwannden.github.io/ai-agent-study/`. The site teaches developers how to build production-ready AI agents using patterns like ReAct, Plan-Execute-Verify, and Human-in-the-Loop.
 
 ## Development Commands
 
@@ -139,7 +139,7 @@ File: `.github/workflows/deploy.yml`
 ### GitHub Pages Configuration
 
 **CRITICAL**: GitHub Pages must be set to "GitHub Actions" source (NOT branch-based) at:
-`https://github.com/schwanndenkuo/ai-agent-study/settings/pages`
+`https://github.com/schwannden/ai-agent-study/settings/pages`
 
 ## Content Guidelines
 
@@ -244,7 +244,7 @@ The starlight-blog plugin is **disabled** due to schema compatibility issues. Co
 ### Development vs Production URLs
 
 - Development: `http://localhost:4321/ai-agent-study/`
-- Production: `https://schwanndenkuo.github.io/ai-agent-study/`
+- Production: `https://schwannden.github.io/ai-agent-study/`
 
 ### TypeScript Configuration
 

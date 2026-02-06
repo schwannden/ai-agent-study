@@ -35,7 +35,7 @@ npm run astro check            # TypeScript and content validation
 **Base Path**: `/ai-agent-study` — ALL internal links must use this prefix
 
 - Development URL: `http://localhost:4321/ai-agent-study/`
-- Production URL: `https://schwanndenkuo.github.io/ai-agent-study/`
+- Production URL: `https://schwannden.github.io/ai-agent-study/`
 
 **Config Files**:
 
@@ -194,14 +194,14 @@ npm run build
 **Requirements**:
 
 - GitHub Pages source set to "GitHub Actions" (NOT branch)
-- Configure at: `https://github.com/schwanndenkuo/ai-agent-study/settings/pages`
+- Configure at: `https://github.com/schwannden/ai-agent-study/settings/pages`
 - Workflow needs `pages: write` and `id-token: write` permissions
 
 ### Verifying Deployment
 
-1. Check Actions tab: `https://github.com/schwanndenkuo/ai-agent-study/actions`
+1. Check Actions tab: `https://github.com/schwannden/ai-agent-study/actions`
 2. Wait for deployment completion (usually 2-3 minutes)
-3. Visit: `https://schwanndenkuo.github.io/ai-agent-study/`
+3. Visit: `https://schwannden.github.io/ai-agent-study/`
 4. Test navigation and locale switching
 
 ## Code Conventions

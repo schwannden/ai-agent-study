@@ -1,49 +1,122 @@
-# Starlight Starter Kit: Basics
+# AI Agent Study
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
+> Comprehensive tutorials for building production-ready AI agents with Claude. Learn ReAct, Plan-Execute-Verify, and Human-in-the-Loop patterns through practical examples.
+
+**Live Site:** [https://schwannden.github.io/ai-agent-study/](https://schwannden.github.io/ai-agent-study/)
+
+## 📚 What You'll Learn
+
+This site provides hands-on tutorials for building autonomous AI agents that can reason, plan, and execute complex tasks. Each pattern includes complete, runnable code examples in Python with implementations using Claude SDK, model-agnostic approaches, and LangChain integration.
+
+### Learning Paths
+
+- **[ReAct Pattern](https://schwannden.github.io/ai-agent-study/react/01-overview/)** (Beginner) - Simple single-loop reasoning agent (~400 lines, 2-3 hours)
+- **[Plan-Execute-Verify](https://schwannden.github.io/ai-agent-study/plan-execute-verify/01-overview/)** (Production) - Multi-phase architecture (~1300+ lines, 6-8 hours)
+- **[Human-in-the-Loop](https://schwannden.github.io/ai-agent-study/human-in-the-loop/00-index/)** (Interactive) - User approval workflows and interactive agents
+
+### Features
+
+✅ **Bilingual Documentation** - English and Traditional Chinese (繁體中文)
+✅ **Real-World Case Study** - Legal document review system
+✅ **Complete Code Examples** - Runnable Python implementations
+✅ **Multiple Frameworks** - Claude SDK, LangChain, model-agnostic patterns
+✅ **Interactive Diagrams** - Mermaid flowcharts with zoom/pan controls
+✅ **Dark/Light Mode** - Automatic theme switching
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Python 3.10+
+- Claude API key from [console.anthropic.com](https://console.anthropic.com/)
+- Basic understanding of REST APIs and async programming
+
+### Getting Started
+
+1. Visit the [landing page](https://schwannden.github.io/ai-agent-study/)
+2. Read the [case study](https://schwannden.github.io/ai-agent-study/case-study/) to understand the problem space
+3. Start with the [ReAct Pattern tutorial](https://schwannden.github.io/ai-agent-study/react/01-overview/)
+4. Progress to [Plan-Execute-Verify](https://schwannden.github.io/ai-agent-study/plan-execute-verify/01-overview/) for production-grade patterns
+
+## 🛠️ Local Development
+
+This site is built with [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/).
+
+### Commands
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server (http://localhost:4321/ai-agent-study/)
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Run linting and formatting
+npm run lint          # Check code and markdown
+npm run lint:fix      # Auto-fix issues
+npm run format        # Format with Prettier
+npm run typecheck     # TypeScript checking
 ```
-npm create astro@latest -- --template starlight
-```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
-
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+### Project Structure
 
 ```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
+src/content/docs/
+├── index.mdx                    # Landing page
+├── case-study.md                # Overview article
+├── react/                       # ReAct pattern tutorials
+├── plan-execute-verify/         # PEV pattern tutorials
+├── human-in-the-loop/           # HITL pattern tutorials
+└── zh-tw/                       # Traditional Chinese translations
 ```
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+## 📖 Documentation
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+- [CLAUDE.md](./CLAUDE.md) - Comprehensive guide for Claude Code users
+- [AGENTS.md](./AGENTS.md) - Technical context for AI coding agents
+- [DEPLOYMENT.md](./DEPLOYMENT.md) - Deployment and configuration guide
 
-Static assets, like favicons, can be placed in the `public/` directory.
+## 🌐 Deployment
 
-## 🧞 Commands
+This site is automatically deployed to GitHub Pages via GitHub Actions when changes are pushed to the `main` branch.
 
-All commands are run from the root of the project, from a terminal:
+- **Deployment URL:** https://schwannden.github.io/ai-agent-study/
+- **Base Path:** `/ai-agent-study`
+- **Build Time:** ~2-3 minutes
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🤝 Contributing
 
-## 👀 Want to learn more?
+Contributions are welcome! Please feel free to:
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+- Report bugs or issues
+- Suggest improvements to tutorials
+- Add translations
+- Submit pull requests
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+## 🔗 Links
+
+- **Live Site:** https://schwannden.github.io/ai-agent-study/
+- **Repository:** https://github.com/schwannden/ai-agent-study
+- **Claude API:** https://docs.anthropic.com/
+- **Anthropic:** https://www.anthropic.com/
+
+## 🙏 Credits
+
+Built with:
+
+- [Astro](https://astro.build/) - Static site framework
+- [Starlight](https://starlight.astro.build/) - Documentation theme
+- [Mermaid](https://mermaid.js.org/) - Diagram rendering
+- [Claude](https://www.anthropic.com/claude) - AI assistance

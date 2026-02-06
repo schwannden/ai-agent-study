@@ -2,6 +2,26 @@
   "name": "ai-agent-study",
   "type": "module",
   "version": "0.0.1",
+  "description": "Comprehensive tutorials for building production-ready AI agents with Claude. Learn ReAct, Plan-Execute-Verify, and Human-in-the-Loop patterns through practical examples.",
+  "homepage": "https://schwannden.github.io/ai-agent-study/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schwannden/ai-agent-study.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schwannden/ai-agent-study/issues"
+  },
+  "keywords": [
+    "ai-agents",
+    "claude",
+    "anthropic",
+    "react-pattern",
+    "langchain",
+    "plan-execute-verify",
+    "human-in-the-loop",
+    "tutorial",
+    "documentation"
+  ],
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
